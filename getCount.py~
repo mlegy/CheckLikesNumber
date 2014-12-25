@@ -25,7 +25,7 @@ while(1):
 
 	fansNumber = getFansNumber(web_page,'<span class="_52id _50f5 _50f7">','<span')
 
-	if(fansNumber >= '2,000'):
+	if(fansNumber >= '3,000'):
 		print "Mission Accompilished !"
 		sound = pyglet.media.load("beep.wav")
 		sound.play()
